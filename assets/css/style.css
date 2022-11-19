@@ -8,6 +8,20 @@ body {
     background-color: #d9dcd6;
 }
 
+header {
+    overflow: hidden;
+    background-color: #2a607c;
+    padding: 20px 10px;
+}
+
+.header-left {
+    float: left;
+    color: #ffffff;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+}
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
