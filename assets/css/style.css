@@ -41,30 +41,3 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #ffffff;
 }
-
-.header-left a {
-    float: left;
-    color: #ffffff;
-    text-align: left;
-    padding: 12px;
-    text-decoration: none;
-}
-
-.btn-group a {
-    float: right;
-    display: block;
-    color: #ffffff;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    line-height: 25px;
-    border-radius: 4px;
-    margin-left: 25px;
-    margin-top: 15px
-}
-
-.header-left a.logo {
-    font-size: 48px;
-    font-weight: bold;
-}
