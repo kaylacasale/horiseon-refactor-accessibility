@@ -34,8 +34,26 @@ nav a {
     margin-left: 25px;
 }
 
-article {
-    height: 800px;
-    width: 100%;
-    background-image: url("../images/digital-marketing-meeting.jpg");
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization>img {
+    max-height: 200px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
 }
