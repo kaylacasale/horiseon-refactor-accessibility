@@ -38,6 +38,7 @@ nav a {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    margin-top: 20px;
 }
 
 .search-engine-optimization {
@@ -56,4 +57,9 @@ nav a {
 .float-left {
     float: left;
     margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
