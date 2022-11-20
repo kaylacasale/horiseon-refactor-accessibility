@@ -34,10 +34,8 @@ nav a {
     margin-left: 25px;
 }
 
-header {
-    overflow: hidden;
-    background-color: #2a607c;
-    padding: 20px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: #ffffff;
+article {
+    height: 800px;
+    width: 100%;
+    background-image: url("../images/digital-marketing-meeting.jpg");
 }
