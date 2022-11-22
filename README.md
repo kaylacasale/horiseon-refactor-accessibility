@@ -46,4 +46,4 @@ The following image shows the web application's appearance and functionality:
 > **Note**: This layout is designed for desktop viewing, so you may notice that some of the elements don't look like the mock-up at a resolution smaller than 768px. Eventually you'll learn how to make elements responsive so that your web application is optimized for any screen size.
 
 ### Focus Points
-semantic elements; logical structure and flexible and independent placement of style information, media-independent assets, sequential heading ranks, and metadata (e.g. alt attributes)
+semantic elements; logical structure and flexible and independent placement of style information, media-independent assets, sequential heading ranks, and metadata (e.g. alt attributes, title, etc.)
