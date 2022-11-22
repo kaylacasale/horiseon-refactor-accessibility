@@ -3,7 +3,7 @@
 
 **Refactoring** means restructing existing code while not changing its original functionality.
 
-**Accessibility** is important to ensure website is usable to maximum users.
+**Accessibility** is important to ensure the website is usable to maximum users.
 
 ## Installation
 Link to Horiseon Webpage with Improved Accessibility: file:///Users/kaylacasale/Desktop/UCLA/homework/01-homework/horiseon-refactor-accessibility/index.html
