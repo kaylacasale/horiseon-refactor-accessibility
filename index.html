@@ -3,6 +3,12 @@
 
 <!-- deleted whole index.html and style.css file in order to rearrange completely and start from scratch -->
 
+<!-- added reset.css stylesheet under <head> element to clear the browser's default formatting of HTML elements -->
+
+<!-- <head> element contains links to:
+    1) external stylesheet: style.css
+    2) external reset: reset.css -->
+
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -10,10 +16,14 @@
     <title>website</title>
 </head>
 
-<body>
+<!-- <body> contains a header, background image, main content, and footer section -->
 
+<body>
+    <!-- <header> contains an h1 and nav elements -->
     <header>
+        <!-- <h1> given class "seo" in order to allow for different styling of these letters -->
         <h1>Hori<span class="seo">seo</span>n</h1>
+        <!-- <nav> contain an unordered list, and each list item given an attribute in order to demonstrate potential for navigation and further interactivity -->
         <nav>
             <ul>
                 <li> <a href="file:///Users/kaylacasale/Desktop/UCLA/homework/01-homework/horiseon-refactor-accessibility/assets/images/search-engine-optimization.jpg"
@@ -27,12 +37,14 @@
             </ul>
         </nav>
     </header>
-
+    <!-- backround image linked to source, attributed alternate text, and given class "main-image", linked -->
     <img src="./assets/images/digital-marketing-meeting.jpg" alt="Digital Marketing Meeting" class="main-image" />
-
+    <!-- <main> divided into "content", "benefits", and <footer> sections -->
     <main>
+        <!-- "content" contains three content modules aligned left of "benefits" section -->
         <div class="content">
-            <div class="content-modules">
+            <!-- each "content-module" contains an img which either floats left or right of h2 and p elements -->
+            <div class="content-module">
                 <img src="./assets/images/search-engine-optimization.jpg" alt="Search Engine Optimization Image"
                     class="float-left" />
                 <h2>Search Engine Optimization</h2>
@@ -42,7 +54,7 @@
                     increase
                     your visibility and find the right customers for your business.</p>
             </div>
-            <div class="content-modules">
+            <div class="content-module">
                 <img src="./assets/images/online-reputation-management.jpg" alt="Online Reputation Management Image"
                     class=" float-right" />
                 <h2>Online Reputation Management</h2>
@@ -53,7 +65,7 @@
                     gives
                     you the control over what potential customers see when they search for your business.</p>
             </div>
-            <div class="content-modules">
+            <div class="content-module">
                 <img src="./assets/images/social-media-marketing.jpg" alt="Social Media Marketing Image"
                     class="float-left" />
                 <h2>Social Media Marketing</h2>
@@ -64,7 +76,9 @@
                     increase your lead generation.</p>
             </div>
         </div>
+        <!-- "benefits" aligned on right side of "content" to appear side-by-side -->
         <div class="benefits">
+            <!-- each "benefits-section" contains an h3, img, and p element stakced vertically -->
             <div class="benefits-section">
                 <h3>Lead Generation</h3>
                 <img src="./assets/images/lead-generation.png" alt="Lead Generation Icon" />
@@ -93,6 +107,7 @@
                 </p>
             </div>
         </div>
+        <!-- <footer> displayed below content and benefits section, and contains an h2 and p element -->
         <footer>
             <h2>Made with ❤️️ by Horiseon</h2>
             <p>

@@ -96,7 +96,7 @@ footer h2 {
     background-color: #2589bd;
 }
 
-.content-modules {
+.content-module {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -111,7 +111,7 @@ footer h2 {
     text-align: center;
 }
 
-.content-modules h2 {
+.content-module h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -121,7 +121,7 @@ footer h2 {
     text-align: center;
 }
 
-.content-modules img {
+.content-module img {
     max-height: 200px;
 }
 
