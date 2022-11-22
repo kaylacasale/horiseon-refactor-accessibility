@@ -6,16 +6,10 @@
 
 body {
     background-color: #d9dcd6;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
 }
 
 header {
-    display: flex;
-    flex-basis: 50%;
-    justify-content: space-between;
-    align-items: center;
+    padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding: 20px;
     background-color: #2a607c;
@@ -24,47 +18,54 @@ header {
 
 h1 {
     font-size: 48px;
+    display: inline-block;
 }
 
-.seo {
+h1 .seo {
     color: #d9dcd6;
 }
 
-h2 {
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-}
-
-h3 {
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 nav ul {
-    display: flex;
-    justify-content: center;
-    padding: 25px;
-    text-align: right;
+    list-style-type: none;
 }
 
-nav ul a {
-    color: #ffffff;
-    font-weight: bold;
-    text-decoration: none;
+nav ul li {
+    display: inline-block;
     margin-left: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+p {
+    font-size: 16px;
 }
 
 .main-image {
     margin-bottom: 25px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
 }
 
 .content {
@@ -82,7 +83,6 @@ nav ul a {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    text-align: center;
 }
 
 .content-modules {
@@ -121,14 +121,4 @@ nav ul a {
 
 .content-modules p {
     font-size: 16px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
 }
