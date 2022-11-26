@@ -1,4 +1,4 @@
-# Refactoring Existing Code to Maintain Original Formatting While Increasing Web 
+# Refactoring Existing Code to Maintain Original Formatting While Increasing Web Accessibility 
 ## horiseon-refactor-accessibility
 
 **Refactoring** means restructing existing code while not changing its original functionality.
