@@ -6,7 +6,7 @@
 **Accessibility** is important to ensure the website is usable to maximum users.
 
 ## Installation
-**Link to Horiseon Webpage:** file:///Users/kaylacasale/Desktop/UCLA/homework/01-homework/horiseon-refactor-accessibility/index.html
+**Link to Horiseon Webpage:** https://kaylacasale.github.io/horiseon-refactor-accessibility/Links to an external site.
 
 **Link to GitHub Repository:** https://github.com/kaylacasale/horiseon-refactor-accessibility
 
